@@ -40,27 +40,47 @@
 \begin{document}
 
 \title{PUC-Rio ACM-ICPC Reference}
-\author{Francisco Thiesen}
+\author{NP-Drada (Francisco Thiesen, Handel Scholze e Lucas Pavanelli)}
 \maketitle
 \tableofcontents
 \lstloadlanguages{C++}
+\section{Combinatória}
+\subsection{Somatórios}
+${\sum_{k=0}^{n}k  = n(n+1)/2}$\newline
+${\sum_{k=0}^{n}k^2 = n(n+1)(2n + 1)/6}$\newline
+${\sum_{k=0}^{n}k^3 = n^2(n+1)^2/4}$\newline
+${\sum_{k=0}^{n}k^4 = (6n^5 + 15n^4 + 10n^3 - n)/30}$
+\subsection{Binômio de Newton}
+Total de multisets de tamanho k a partir de n elems: ${\binom{n+k-1}{k}}$\newline
+Total de n-tuplas com elementos não negativos com soma = s: ${\binom{s+n-1}{n-1}}$\newline
+Total de n-tuplas com elementos positivos com soma = s: ${\binom{s-1}{n-1}}$\newline
+Numero de caminhos de lattice restritos de (0,0)-(a,b) : ${\binom{a+b}{a}}$
+\subsection{Numeros de Catalão}
+${C_n = 1/n+1 * \binom{2n}{n}, C_0 = 1, C_n = \sum_{i=0}^{n-1}C_iC_{n-1-i}, C_{n+1} = C_n\frac{4n+2}{n+2}}$
+${C_n}$ representa: numero de sequencias válidas com n pares de parenteses\newline
+triangulações de um (n+2)-gono
+
 \section{Template}
 \lstinputlisting{template.cpp}
 
 \section{Ad-Hoc}
-\subsection{Casamento estável}
+\subsection{Casamento estável ${O(n^2)}$}
 \lstinputlisting{stable_marriage.cpp}
-\subsection{Maioria área em um histograma}
+\subsection{Maioria área em um histograma ${O(n)}$}
 \lstinputlisting{largest_histogram_area.cpp}
-\subsection{Algoritmo de Mo}
+\subsection{Algoritmo de Mo${O(sqrt(n)*n)}$}
 \lstinputlisting{mo.cpp}
 
 \section{Estruturas de Dados}
-\subsection{BIT}
+\subsection{BIT ${<O(logN), O(logN)>}$}
 \lstinputlisting{bit.cpp}
-\subsection{Segment Tree}
+\subsection{BIT-2D}
+\lstinputlisting{bit2D.cpp}
+\subsection{Segment Tree${<O(n), O(logN), O(logN))>}$}
 \lstinputlisting{segtree.cpp}
-\subsection{Segment Tree com Lazy Propagation}
+\subsection{RMQ-DP ${<O(nLogn), O(1)>}$}
+\lstinputlisting{rmqDP.cpp}
+\subsection{Segment Tree com Lazy Propagation ${<O(n), O(logN), O(logN))>}$}
 \lstinputlisting{segtree_lazy.cpp}
 \subsection{Union Find}
 \lstinputlisting{union_find.cpp}
@@ -68,37 +88,37 @@
 \section{Geometria}
 \subsection{Template}
 \lstinputlisting{geometry_template.cpp}
-\subsection{Convex Hull}
+\subsection{Convex Hull ${O(n log n)}$}
 \lstinputlisting{convex_hull.cpp}
 \subsection{Smallest Enclosing Circle}
 \lstinputlisting{smallest_enclosing_circle.cpp}
-\subsection{Closest Pair of Points}
+\subsection{Closest Pair of Points ${O(nlogn)}$}
 \lstinputlisting{closest_pair_of_points.cpp}
-\subsection{Interseção de Polígonos Convexos}
+\subsection{Interseção de Polígonos Convexos ${O(|P| + |Q|)}$}
 \lstinputlisting{convex_poly_intersection.cpp}
 \subsection{Retângulos}
 \lstinputlisting{rect_intersection.cpp}
 
 \section{Grafos}
-\subsection{Dijkstra}
+\subsection{Dijkstra ${O(E logV)}$}
 \lstinputlisting{dijkstra.cpp}
-\subsection{Kruskal}
+\subsection{Kruskal ${O(E logV)}$}
 \lstinputlisting{kruskal.cpp}
-\subsection{Tarjan}
+\subsection{Tarjan${O(V+E)}$}
 \lstinputlisting{tarjan.cpp}
-\subsection{Articulações}
+\subsection{Articulações ${O(V+E)}$}
 \lstinputlisting{articulation.cpp}
-\subsection{Pontes}
+\subsection{Pontes ${O(V+E)}$}
 \lstinputlisting{bridges.cpp}
-\subsection{Lowest Common Ancestor}
+\subsection{Lowest Common Ancestor ${<O(V log V), O(logV)>}$}
 \lstinputlisting{lca.cpp}
-\subsection{Dinic}
+\subsection{Dinic ${O(V+E)}$}
 \lstinputlisting{dinic.cpp}
-\subsection{Hopcroft-Karp}
+\subsection{Hopcroft-Karp ${O(E sqrt V)}$}
 \lstinputlisting{hopcroft-karp.cpp}
-\subsection{Heavy-Light Decomposition}
+\subsection{Heavy-Light Decomposition ${<O(logV), O(log^2 V)>}$}
 \lstinputlisting{heavylight.cpp}
-\subsection{Min-Cost Max-Flow}
+\subsection{Min-Cost Max-Flow ${O(VE + f E log V), f = maxflow}$}
 \lstinputlisting{minCost-maxFlow.cpp}
 
 \section{Matemática}
@@ -110,7 +130,7 @@
 \lstinputlisting{chinese_remainder_coprime.cpp}
 \subsection{Resto Chines Generalizado}
 \lstinputlisting{chinese_remainder_general.cpp}
-\subsection{Crivo de Eratosthenes}
+\subsection{Crivo de Eratosthenes ${O(n*loglogn)}$}
 \lstinputlisting{eratosthenes_sieve.cpp}
 \subsection{Fatoração}
 \lstinputlisting{factorization.cpp}
@@ -124,7 +144,7 @@
 \lstinputlisting{fft.cpp}
 \subsection{Polinômios}
 \lstinputlisting{polynomials.cpp}
-\subsection{Eliminação Gaussiana}
+\subsection{Eliminação Gaussiana ${O(n^3)}$}
 \lstinputlisting{gaussian_elimination.cpp}
 \subsection{Integração por Método de Simpson}
 \lstinputlisting{integration_simpson_rule.cpp}
@@ -132,34 +152,34 @@
 \lstinputlisting{matrix_pow.cpp}
 
 \section{Programação Dinâmica}
-\subsection{Coin Change (menor qntd)}
+\subsection{Coin Change (menor qntd) ${O(nc)}$}
 \lstinputlisting{coin_change_minimum_coins.cpp}
-\subsection{Coin Change (total de formas)}
+\subsection{Coin Change (total de formas) ${O(nc)}$}
 \lstinputlisting{coin_change_total_ways.cpp}
-\subsection{Knapsack Com Repetição}
+\subsection{Knapsack Com Repetição ${O(nc)}$}
 \lstinputlisting{knapsack_with_repetition.cpp}
-\subsection{Longest Common Subsequence}
+\subsection{Longest Common Subsequence ${O(nm)}$}
 \lstinputlisting{longest_common_subsequence.cpp}
-\subsection{Longest Common Substring}
+\subsection{Longest Common Substring ${O(nm)}$}
 \lstinputlisting{longest_common_substring.cpp}
-\subsection{Longest Increasing Sequence}
+\subsection{Longest Increasing Sequence ${O(n log n)}$}
 \lstinputlisting{longest_increasing_subsequence.cpp}
-\subsection{Weighted Activity Selection}
+\subsection{Weighted Activity Selection ${O(n log n)}$}
 \lstinputlisting{weighted_activity_selection.cpp}
-\subsection{Caixeiro Viajante}
+\subsection{Caixeiro Viajante ${O(n^2 2^n)}$}
 \lstinputlisting{traveling_salesman.cpp}
 \section{String}
-\subsection{Suffix Array e Longest Common Prefix}
+\subsection{Suffix Array e Longest Common Prefix ${O(n log n)}$}
 \lstinputlisting{suffix_array_longest_common_prefix.cpp}
 \subsection{Aho-Corasick}
 \lstinputlisting{aho-corasick.cpp}
-\subsection{KMP}
+\subsection{KMP ${O(n + m)}$}
 \lstinputlisting{kmp.cpp}
-\subsection{Z algorithm}
+\subsection{Z algorithm ${O(n)}$}
 \lstinputlisting{z.cpp}
 \subsection{String Hashing}
 \lstinputlisting{string_hashing.cpp}
-\subsection{Manacher}
+\subsection{Manacher ${O(n)}$}
 \lstinputlisting{manacher.cpp}
 
 \end{document}

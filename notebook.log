@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.21)  21 JAN 2017 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.21)  22 JAN 2017 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**teste.tex
-(./teste.tex
+**notebook.tex
+(./notebook.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -603,8 +603,8 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 LaTeX Warning: Unused global option(s):
     [twosides].
 
-(./teste.aux)
-\openout1 = `teste.aux'.
+(./notebook.aux)
+\openout1 = `notebook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -649,9 +649,9 @@ LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
 
-(./teste.out) (./teste.out)
+(./notebook.out) (./notebook.out)
 \@outlinefile=\write3
-\openout3 = `teste.out'.
+\openout3 = `notebook.out'.
 
 
 *geometry* driver: auto-detecting
@@ -696,148 +696,472 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./teste.toc
+) (./notebook.toc
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ])
 \tf@toc=\write4
-\openout4 = `teste.toc'.
+\openout4 = `notebook.toc'.
 
- (./template.cpp)
-(./stable_marriage.cpp [2]) (./largest_histogram_area.cpp) (./mo.cpp)
-(./bit.cpp [3]) (./segtree.cpp) (./segtree_lazy.cpp [4]
+
+Underfull \hbox (badness 2538) in paragraph at lines 59--62
+$[]$ $[]$ \OT1/cmr/m/n/10 rep-re-
+ []
+
+(./template.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 67.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 67.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 67.
+
+(./stable_marriage.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 69.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 69.
+
+(./largest_histogram_area.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 71.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 71.
+
+(./mo.cpp [3])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 75.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 75.
+
+(./bit.cpp) (./bit2D.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 79.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 79.
+
+(./segtree.cpp [4])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 81.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./rmqDP.cpp)
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]\OT1/cmr/bx/n/12 Segment Tree com Lazy Prop-a-ga-tion
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 83.
+
+(./segtree_lazy.cpp [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./union_find.cpp [5]) (./geometry_template.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./union_find.cpp) [6] (./geometry_template.cpp
+Underfull \vbox (badness 5711) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7])
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 91.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 91.
+
 (./convex_hull.cpp) (./smallest_enclosing_circle.cpp)
-(./closest_pair_of_points.cpp [8])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 95.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 95.
+
+(./closest_pair_of_points.cpp [9])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 97.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 97.
+
+(./convex_poly_intersection.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [10])
+(./rect_intersection.cpp)
 
-(./convex_poly_intersection.cpp [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 103.
 
-)
-(./rect_intersection.cpp) (./dijkstra.cpp [10]) (./kruskal.cpp)
-Underfull \vbox (badness 5403) has occurred while \output is active []
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 103.
+
+(./dijkstra.cpp [11])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 105.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 105.
+
+(./kruskal.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 107.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 107.
 
 (./tarjan.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 109.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 109.
+
+(./articulation.cpp [12])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+(./bridges.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 113.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 113.
+
+(./lca.cpp [13])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 115.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 115.
+
+(./dinic.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-(./articulation.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [14])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 117.
 
 
-(./bridges.cpp) (./lca.cpp [12])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 117.
 
-
-(./dinic.cpp [13]) (./hopcroft-karp.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-(./heavylight.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./minCost-maxFlow.cpp [16]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./lcm.cpp [17]) (./extendedEuclid.cpp) (./chinese_remainder_coprime.cpp)
-(./chinese_remainder_general.cpp) (./eratosthenes_sieve.cpp [18])
-(./factorization.cpp) (./euler_phi.cpp)
+(./hopcroft-karp.cpp)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\forall' on input line 119.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\phi' on input line 119.
+(hyperref)                removing `superscript' on input line 119.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 119.
 
-(./euler_phi_modified.cpp) (./modular_fast_pow.cpp [19]) (./fft.cpp)
+(./heavylight.cpp [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 121.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 121.
+
+(./minCost-maxFlow.cpp [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./lcm.cpp) (./extendedEuclid.cpp [18]) (./chinese_remainder_coprime.cpp)
+(./chinese_remainder_general.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 133.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 133.
+
+(./eratosthenes_sieve.cpp) (./factorization.cpp [19]) (./euler_phi.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\forall' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 139.
+
+(./euler_phi_modified.cpp) (./modular_fast_pow.cpp) (./fft.cpp [20])
 (./polynomials.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [21]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./gaussian_elimination.cpp [21])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 147.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 147.
+
+(./gaussian_elimination.cpp [22]) (./integration_simpson_rule.cpp)
+(./matrix_pow.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+(./coin_change_minimum_coins.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 157.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 157.
+
+
+Underfull \vbox (badness 3942) has occurred while \output is active []
+
+ [23]
+(./coin_change_total_ways.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 159.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 159.
+
+(./knapsack_with_repetition.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 161.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 161.
+
+(./longest_common_subsequence.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 163.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 163.
+
+(./longest_common_substring.cpp [24])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 165.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 165.
+
+(./longest_increasing_subsequence.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 167.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 167.
+
+(./weighted_activity_selection.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 169.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 169.
+
+
+Underfull \vbox (badness 5403) has occurred while \output is active []
+
+ [25]
+(./traveling_salesman.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 172.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 172.
+
+(./suffix_array_longest_common_prefix.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-(./integration_simpson_rule.cpp) (./matrix_pow.cpp)
+ [26])
+(./aho-corasick.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-(./coin_change_minimum_coins.cpp) (./coin_change_total_ways.cpp)
-(./knapsack_with_repetition.cpp) (./longest_common_subsequence.cpp) [23]
-(./longest_common_substring.cpp) (./longest_increasing_subsequence.cpp)
-(./weighted_activity_selection.cpp [24]) (./traveling_salesman.cpp)
-(./suffix_array_longest_common_prefix.cpp [25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [27])
 
-)
-(./aho-corasick.cpp [26])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 176.
 
- (./kmp.cpp) (./z.cpp [27]) (./string_hashing.cpp) (./manacher.cpp)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
- [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
- (./teste.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
-Package rerunfilecheck Info: File `teste.out' has not changed.
-(rerunfilecheck)             Checksum: D5A1549FDE56DAB6E80B8A37EF7B0D9B;3955.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 176.
+
+(./kmp.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 178.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 178.
+
+(./z.cpp) (./string_hashing.cpp [28])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 182.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 182.
+
+(./manacher.cpp)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+ [29
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+ (./notebook.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package rerunfilecheck Info: File `notebook.out' has not changed.
+(rerunfilecheck)             Checksum: 59D2772A1AF97B1A752E1E90223964E1;4796.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 11798 strings out of 494953
- 164294 string characters out of 6180977
- 383822 words of memory out of 5000000
- 12606 multiletter control sequences out of 15000+600000
+ 11860 strings out of 494953
+ 165310 string characters out of 6180977
+ 387822 words of memory out of 5000000
+ 12626 multiletter control sequences out of 15000+600000
  11969 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 33i,8n,58p,235b,1811s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,8n,58p,238b,1909s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt9.pfb>
-Output written on teste.pdf (28 pages, 223681 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on notebook.pdf (29 pages, 291577 bytes).
 PDF statistics:
- 3086 PDF objects out of 3580 (max. 8388607)
- 3016 compressed objects within 31 object streams
- 2237 named destinations out of 2487 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3181 PDF objects out of 3580 (max. 8388607)
+ 3103 compressed objects within 32 object streams
+ 2273 named destinations out of 2487 (max. 500000)
+ 521 words of extra memory for PDF output out of 10000 (max. 10000000)
 
