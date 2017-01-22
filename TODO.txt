@@ -1,0 +1,8 @@
+Missing: 
+1 - BigInt implementation
+2 - Simplex
+3 - Poker
+4 - Testing every algorithm with a public online judge problem
+5 - vim.rc
+6 - Add the name of the notebooks that inspired us
+7 - Stirling numbers
