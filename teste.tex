@@ -1,0 +1,165 @@
+\documentclass[10pt, letterpaper, twocolumn, twosides]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{geometry}
+
+\geometry{verbose, landscape, letterpaper, tmargin=2cm, bmargin=2cm, lmargin=1cm, rmargin=1cm}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58, 0, 0.82}
+
+\lstset{frame=tb,
+	language=C++,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=2
+}
+
+\setlength{\columnsep}{0.5in}
+
+\begin{document}
+
+\title{PUC-Rio ACM-ICPC Reference}
+\author{Francisco Thiesen}
+\maketitle
+\tableofcontents
+\lstloadlanguages{C++}
+\section{Template}
+\lstinputlisting{template.cpp}
+
+\section{Ad-Hoc}
+\subsection{Casamento estável}
+\lstinputlisting{stable_marriage.cpp}
+\subsection{Maioria área em um histograma}
+\lstinputlisting{largest_histogram_area.cpp}
+\subsection{Algoritmo de Mo}
+\lstinputlisting{mo.cpp}
+
+\section{Estruturas de Dados}
+\subsection{BIT}
+\lstinputlisting{bit.cpp}
+\subsection{Segment Tree}
+\lstinputlisting{segtree.cpp}
+\subsection{Segment Tree com Lazy Propagation}
+\lstinputlisting{segtree_lazy.cpp}
+\subsection{Union Find}
+\lstinputlisting{union_find.cpp}
+
+\section{Geometria}
+\subsection{Template}
+\lstinputlisting{geometry_template.cpp}
+\subsection{Convex Hull}
+\lstinputlisting{convex_hull.cpp}
+\subsection{Smallest Enclosing Circle}
+\lstinputlisting{smallest_enclosing_circle.cpp}
+\subsection{Closest Pair of Points}
+\lstinputlisting{closest_pair_of_points.cpp}
+\subsection{Interseção de Polígonos Convexos}
+\lstinputlisting{convex_poly_intersection.cpp}
+\subsection{Retângulos}
+\lstinputlisting{rect_intersection.cpp}
+
+\section{Grafos}
+\subsection{Dijkstra}
+\lstinputlisting{dijkstra.cpp}
+\subsection{Kruskal}
+\lstinputlisting{kruskal.cpp}
+\subsection{Tarjan}
+\lstinputlisting{tarjan.cpp}
+\subsection{Articulações}
+\lstinputlisting{articulation.cpp}
+\subsection{Pontes}
+\lstinputlisting{bridges.cpp}
+\subsection{Lowest Common Ancestor}
+\lstinputlisting{lca.cpp}
+\subsection{Dinic}
+\lstinputlisting{dinic.cpp}
+\subsection{Hopcroft-Karp}
+\lstinputlisting{hopcroft-karp.cpp}
+\subsection{Heavy-Light Decomposition}
+\lstinputlisting{heavylight.cpp}
+\subsection{Min-Cost Max-Flow}
+\lstinputlisting{minCost-maxFlow.cpp}
+
+\section{Matemática}
+\subsection{LCM}
+\lstinputlisting{lcm.cpp}
+\subsection{Algoritmo Estendido de Euclides}
+\lstinputlisting{extendedEuclid.cpp}
+\subsection{Resto Chines para gcd(i, j) = 1}
+\lstinputlisting{chinese_remainder_coprime.cpp}
+\subsection{Resto Chines Generalizado}
+\lstinputlisting{chinese_remainder_general.cpp}
+\subsection{Crivo de Eratosthenes}
+\lstinputlisting{eratosthenes_sieve.cpp}
+\subsection{Fatoração}
+\lstinputlisting{factorization.cpp}
+\subsection{Totiente de Euler}
+\lstinputlisting{euler_phi.cpp}
+\subsection{Totiente de Euler ${\forall x < n - \phi(x)}$}
+\lstinputlisting{euler_phi_modified.cpp}
+\subsection{Exponenciação Rápida com Módulo}
+\lstinputlisting{modular_fast_pow.cpp}
+\subsection{Fast Fourier Transform}
+\lstinputlisting{fft.cpp}
+\subsection{Polinômios}
+\lstinputlisting{polynomials.cpp}
+\subsection{Eliminação Gaussiana}
+\lstinputlisting{gaussian_elimination.cpp}
+\subsection{Integração por Método de Simpson}
+\lstinputlisting{integration_simpson_rule.cpp}
+\subsection{Exponenciação Rápida de Matrizes}
+\lstinputlisting{matrix_pow.cpp}
+
+\section{Programação Dinâmica}
+\subsection{Coin Change (menor qntd)}
+\lstinputlisting{coin_change_minimum_coins.cpp}
+\subsection{Coin Change (total de formas)}
+\lstinputlisting{coin_change_total_ways.cpp}
+\subsection{Knapsack Com Repetição}
+\lstinputlisting{knapsack_with_repetition.cpp}
+\subsection{Longest Common Subsequence}
+\lstinputlisting{longest_common_subsequence.cpp}
+\subsection{Longest Common Substring}
+\lstinputlisting{longest_common_substring.cpp}
+\subsection{Longest Increasing Sequence}
+\lstinputlisting{longest_increasing_subsequence.cpp}
+\subsection{Weighted Activity Selection}
+\lstinputlisting{weighted_activity_selection.cpp}
+\subsection{Caixeiro Viajante}
+\lstinputlisting{traveling_salesman.cpp}
+\section{String}
+\subsection{Suffix Array e Longest Common Prefix}
+\lstinputlisting{suffix_array_longest_common_prefix.cpp}
+\subsection{Aho-Corasick}
+\lstinputlisting{aho-corasick.cpp}
+\subsection{KMP}
+\lstinputlisting{kmp.cpp}
+\subsection{Z algorithm}
+\lstinputlisting{z.cpp}
+\subsection{String Hashing}
+\lstinputlisting{string_hashing.cpp}
+\subsection{Manacher}
+\lstinputlisting{manacher.cpp}
+
+\end{document}
